@@ -14,6 +14,7 @@ public class OpertionEx1 {
 		num = -num; // + 부호는 현상 유지, - 부호는 부호를 바꿔주는것
 		System.out.println(num); // 아에 바뀜
 		System.out.println(-num);
+		System.out.println(+num);
 		
 		System.out.println("\n산술연산자");
 		int mathScore = 85;
