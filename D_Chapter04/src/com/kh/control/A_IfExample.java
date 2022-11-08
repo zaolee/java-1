@@ -1,6 +1,6 @@
 package com.kh.control;
 
-public class IfExample {
+public class A_IfExample {
 
 	public static void main(String[] args) {
 		System.out.println("if문, if-eles문");

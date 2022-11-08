@@ -1,6 +1,6 @@
 package com.kh.control;
 
-public class SwitchExample {
+public class B_SwitchExample {
 
 	public static void main(String[] args) {
 		System.out.println("switch-case문");
