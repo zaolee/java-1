@@ -11,6 +11,7 @@ public class C_StudentTest {
 		studentzao.studentName = "짜오리";// 지금 이게 힙메모리 안에 기능 넣는중
 		studentzao.address = "경기도 용인시";
 		studentzao.grade = 1;
+		// 접근제어자가 동일한 패키지이기 때문에 ㄱㅊ음
 		
 		System.out.println(studentzao.studentId);
 		System.out.println(studentzao.studentName);
@@ -37,6 +38,14 @@ public class C_StudentTest {
 		// 메인메서드 실행 -> 스탯메모리(변수생성됨: studentzao, lee : 객체를 담고있는 주소값 생성되는거 = 참조변수), 힙메모리 생성(맴버변수생성(id, 주소, 학년등.. 기능))
 		// 스택이 힙을 참조하고 있음, 힙 안에는 기능이 있으니까, studentzao, lee들이 기능(학년, 주소, 학번등,,) 참조하는거, 이게 lee, zao각각 만들어지는거임. 갠플.
 		// 스택 메모리 안에 zao, lee각각의 메모리 생성, 힙 메모리 안에 zao, lee의 기능들이 각각 생성되는거, 그리고 스탯안에 있는 zao, lee가 힙 안에 있는 기능들을 참조하는거.
+		
+		System.out.println("\n참조변수와 참조값");
+		
+		System.out.println(studentzao); // 가상주소값
+		System.out.println(studentlee);
+		
+		
+	
 	}
 
 }

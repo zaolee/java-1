@@ -4,9 +4,9 @@ public class A_Student { // main메서드는 프로그램을 실행시키기 위
 	int studentId; // 학번
 	String studentName; // 학생이름
 	int grade; // 학년
-	String address; // 사는곳
+	String address; // 사는곳 :맴버변수 = 프로퍼티 = 필드 등,,
 	
 	public void showStudentInfo() { // 객체의 기능(속성을 실행시켜주는 기능)
 		System.out.println(studentName + "은(는) " + address +"에 산다.");		
-	}
+	} // 이 매서드는 void : 반환값없음. 매개변수도 없음.
 }
