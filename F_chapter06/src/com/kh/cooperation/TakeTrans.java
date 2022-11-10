@@ -7,7 +7,7 @@ public class TakeTrans {
 		Student Lee = new Student("Lee", 10000);
 		Zao.showInfo();
 		Lee.showInfo();
-		System.err.println("\n");
+		System.err.println();
 		
 		Bus bus100 = new Bus(100);
 		
@@ -15,6 +15,8 @@ public class TakeTrans {
 		Zao.takeBus(bus100);
 		Zao.showInfo();
 		bus100.showInfo();
+		
+	
 		
 		System.err.println();
 		Subway subwayGreen = new Subway("2호선");
@@ -24,6 +26,7 @@ public class TakeTrans {
 		Lee.showInfo();
 		subwayGreen.showInfo();
 		
+	
 
 	}
 
