@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayCopy {
 
 	public static void main(String[] args) {
-		System.out.println("Syste클래스에서 제공하는 arraycopy()메소드를 이용한 복사");
+		System.out.println("System클래스에서 제공하는 arraycopy()메소드를 이용한 복사");
 		int[] array1 = {10, 20, 30, 40, 50};
 		int[] array2 = new int[10];
 		
