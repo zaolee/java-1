@@ -19,13 +19,17 @@ public class Book {
 		this.author = author;
 	}
 	
+
+	public String information() {
+		return this.getTitle() + " " + this.getPrice() + " " + this.getDiscountRate() + " " + this.getAuthor();
+		
+	}
+	
 	public int clacprice() {
 		double clacprice =	price - (price * discountRate);
 		System.out.println("도서명 = " +  this.title);
 		return (int) clacprice;
 	}
-
-	String information;
 
 	public String getTitle() {
 		return title;

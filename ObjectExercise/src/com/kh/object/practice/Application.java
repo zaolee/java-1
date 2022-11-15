@@ -11,8 +11,8 @@ public class Application {
 		Book book2 = new Book("자바의 정석", 20000, 0.2, "윤상섭");
 		
 		// 객체가 가진 필드 값 출력 확인
-		System.out.println(book.getTitle() + " " + book.getPrice() + " " + book.getDiscountRate() + " " + book.getAuthor());
-		System.out.println(book2.getTitle() + " " + book2.getPrice() + " " + book2.getDiscountRate() + " " + book2.getAuthor());
+		System.out.println(book.information());
+		System.out.println(book2.information());
 						
 		// 첫번째 객체가 가진 값을 setter를 이용하여 수정
 		book.setTitle("C언어");
