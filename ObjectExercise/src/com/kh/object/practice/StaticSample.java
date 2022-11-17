@@ -17,7 +17,7 @@ public class StaticSample {
 	}
 	
 	public static void setChar(int index, char c) {
-		char[] charArr = value.toCharArray();
+		char[] charArr = value.toCharArray(); // ctrl + shift + L = 변수 만들기
 		
 		charArr[index] = c;
 		

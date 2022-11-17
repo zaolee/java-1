@@ -1,5 +1,5 @@
-package com.kh.object.practice;
+package com.kh.inherit;
 
-public class Employee {
+public class Employee extends Person {
 
 }
