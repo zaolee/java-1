@@ -1,6 +1,6 @@
 package com.kh.operation;
 
-public class OpertionEx1 {
+public class OperationEx1 {
 
 	public static void main(String[] args) {
 		System.out.println("부호 연산자");
